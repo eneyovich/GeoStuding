@@ -1,0 +1,875 @@
+<resources>
+    <string name="app_name">GeoStuding</string>
+    
+    <string name="capitals_europe">European Capitals</string>
+    <string name="capitals_asia">Asian Capitals</string>
+    <string name="capitals_namerica">Capitals of North America</string>
+    <string name="capitals_samerica">Capitals of South America</string>
+    <string name="capitals_australia">Capitals of Australia and Oceania</string>
+    <string name="capitals_africa">African Capitals</string>
+
+
+    <string name="amsterdam">Amsterdam</string>
+    <string name="andorra_capital">Andorra la Vella</string>
+    <string name="athens">Athens</string>
+    <string name="belgrade">Belgrade</string>
+    <string name="berlin">Berlin</string>
+    <string name="bern">Bern</string>
+    <string name="bratislava">Bratislava</string>
+    <string name="brussels">Brussels</string>
+    <string name="bucharest">Bucharest</string>
+    <string name="budapest">Budapest</string>
+    <string name="chisinau">Chisinau</string>
+    <string name="copenhagen">Copenhagen</string>
+    <string name="dublin">Dublin</string>
+    <string name="helsinki">Helsinki</string>
+    <string name="kyiv">Kyiv</string>
+    <string name="lisbon">Lisbon</string>
+    <string name="ljubljana">Ljubljana</string>
+    <string name="london">London</string>
+    <string name="luxembourg_capital">Luxembourg</string>
+    <string name="madrid">Madrid</string>
+    <string name="minsk">Minsk</string>
+    <string name="monaco_capital">Monaco</string>
+    <string name="moscow">Moscow</string>
+    <string name="nicosia">Nicosia</string>
+    <string name="oslo">Oslo</string>
+    <string name="paris">Paris</string>
+    <string name="podgorica">Podgorica</string>
+    <string name="prague">Prague</string>
+    <string name="reykjavik">Reykjavik</string>
+    <string name="riga">Riga</string>
+    <string name="rome">Rome</string>
+    <string name="san_marino_capital">San Marino</string>
+    <string name="sarajevo">Sarajevo</string>
+    <string name="skopje">Skopje</string>
+    <string name="sofia">Sofia</string>
+    <string name="stockholm">Stockholm</string>
+    <string name="tallinn">Tallinn</string>
+    <string name="tirana">Tirana</string>
+    <string name="vaduz">Vaduz</string>
+    <string name="valletta">Valletta</string>
+    <string name="vatican_capital">Vatican</string>
+    <string name="vienna">Vienna</string>
+    <string name="vilnius">Vilnius</string>
+    <string name="warsaw">Warsaw</string>
+    <string name="zagreb">Zagreb</string>
+
+    <string-array name="europe_capitals">
+        <item>@string/amsterdam</item>
+        <item>@string/andorra_capital</item>
+        <item>@string/athens</item>
+        <item>@string/belgrade</item>
+        <item>@string/berlin</item>
+        <item>@string/bern</item>
+        <item>@string/bratislava</item>
+        <item>@string/brussels</item>
+        <item>@string/bucharest</item>
+        <item>@string/budapest</item>
+        <item>@string/chisinau</item>
+        <item>@string/copenhagen</item>
+        <item>@string/dublin</item>
+        <item>@string/helsinki</item>
+        <item>@string/kyiv</item>
+        <item>@string/lisbon</item>
+        <item>@string/ljubljana</item>
+        <item>@string/london</item>
+        <item>@string/luxembourg_capital</item>
+        <item>@string/madrid</item>
+        <item>@string/minsk</item>
+        <item>@string/monaco_capital</item>
+        <item>@string/moscow</item>
+        <item>@string/nicosia</item>
+        <item>@string/oslo</item>
+        <item>@string/paris</item>
+        <item>@string/podgorica</item>
+        <item>@string/prague</item>
+        <item>@string/reykjavik</item>
+        <item>@string/riga</item>
+        <item>@string/rome</item>
+        <item>@string/san_marino_capital</item>
+        <item>@string/sarajevo</item>
+        <item>@string/skopje</item>
+        <item>@string/sofia</item>
+        <item>@string/stockholm</item>
+        <item>@string/tallinn</item>
+        <item>@string/tirana</item>
+        <item>@string/vaduz</item>
+        <item>@string/valletta</item>
+        <item>@string/vatican_capital</item>
+        <item>@string/vienna</item>
+        <item>@string/vilnius</item>
+        <item>@string/warsaw</item>
+        <item>@string/zagreb</item>
+    </string-array>
+
+
+    <string name="netherlands">Netherlands</string>
+    <string name="andorra_country">Andorra</string>
+    <string name="greece">Ghana</string>
+    <string name="serbia">Serbia</string>
+    <string name="germany">Germany</string>
+    <string name="switzerland">Switzerland</string>
+    <string name="slovakia">Slovakia</string>
+    <string name="belgium">Belgium</string>
+    <string name="romania">Romania</string>
+    <string name="hungary">Hungary</string>
+    <string name="moldova">Moldova</string>
+    <string name="denmark">Denmark</string>
+    <string name="ireland">Ireland</string>
+    <string name="finland">Finland</string>
+    <string name="ukraine">Ukraine</string>
+    <string name="portugal">Portugal</string>
+    <string name="slovenia">Slovenia</string>
+    <string name="united_kingdom">United Kingdom</string>
+    <string name="luxembourg">Luxembourg</string>
+    <string name="spain">Spain</string>
+    <string name="belarus">Belarus</string>
+    <string name="monaco">Monaco</string>
+    <string name="russia">Russia</string>
+    <string name="cyprus">Cyprus</string>
+    <string name="norway">Norway</string>
+    <string name="france">France</string>
+    <string name="montenegro">Montenegro</string>
+    <string name="czech_republic">Czech Republic</string>
+    <string name="iceland">Iceland</string>
+    <string name="latvia">Latvia</string>
+    <string name="italy">Italy</string>
+    <string name="san_marino_country">San Marino</string>
+    <string name="bosnia_herzegovina">Bosnia &amp; Herzegovina</string>
+    <string name="macedonia">Macedonia</string>
+    <string name="bulgaria">Bulgaria</string>
+    <string name="sweden">Sweden</string>
+    <string name="estonia">Estonia</string>
+    <string name="albania">Albania</string>
+    <string name="liechtenstein">Liechtenstein</string>
+    <string name="malta">Malta</string>
+    <string name="vatican_country">Vatican</string>
+    <string name="austria">Austria</string>
+    <string name="lithuania">Lithuania</string>
+    <string name="poland">Poland</string>
+    <string name="croatia">Croatia</string>
+
+    <string-array name="europe_countries">
+        <item>@string/netherlands</item>
+        <item>@string/andorra_country</item>
+        <item>@string/greece</item>
+        <item>@string/serbia</item>
+        <item>@string/germany</item>
+        <item>@string/switzerland</item>
+        <item>@string/slovakia</item>
+        <item>@string/belgium</item>
+        <item>@string/romania</item>
+        <item>@string/hungary</item>
+        <item>@string/moldova</item>
+        <item>@string/denmark</item>
+        <item>@string/ireland</item>
+        <item>@string/finland</item>
+        <item>@string/ukraine</item>
+        <item>@string/portugal</item>
+        <item>@string/slovenia</item>
+        <item>@string/united_kingdom</item>
+        <item>@string/luxembourg</item>
+        <item>@string/spain</item>
+        <item>@string/belarus</item>
+        <item>@string/monaco</item>
+        <item>@string/russia</item>
+        <item>@string/cyprus</item>
+        <item>@string/norway</item>
+        <item>@string/france</item>
+        <item>@string/montenegro</item>
+        <item>@string/czech_republic</item>
+        <item>@string/iceland</item>
+        <item>@string/latvia</item>
+        <item>@string/italy</item>
+        <item>@string/san_marino_country</item>
+        <item>@string/bosnia_herzegovina</item>
+        <item>@string/macedonia</item>
+        <item>@string/bulgaria</item>
+        <item>@string/sweden</item>
+        <item>@string/estonia</item>
+        <item>@string/albania</item>
+        <item>@string/liechtenstein</item>
+        <item>@string/malta</item>
+        <item>@string/vatican_country</item>
+        <item>@string/austria</item>
+        <item>@string/lithuania</item>
+        <item>@string/poland</item>
+        <item>@string/croatia</item>
+    </string-array>
+
+
+    <string name="abu_dhabi">Abu Dhabi</string>
+    <string name="amman">Amman</string>
+    <string name="ankara">Ankara</string>
+    <string name="ashgabat">Ashgabat</string>
+    <string name="astana">Astana</string>
+    <string name="baghdad">Baghdad</string>
+    <string name="baku">Baku</string>
+    <string name="bandar_seri_begawan">Bandar Seri Begawan</string>
+    <string name="bangkok">Bangkok</string>
+    <string name="beijing">Beijing</string>
+    <string name="beirut">Beirut</string>
+    <string name="bishkek">Bishkek</string>
+    <string name="kotte">Sri Jayawardenepura Kotte</string>
+    <string name="damascus">Damascus</string>
+    <string name="dhaka">Dhaka</string>
+    <string name="dili">Dili</string>
+    <string name="doha">Doha</string>
+    <string name="dushanbe">Dushanbe</string>
+    <string name="hanoi">Hanoi</string>
+    <string name="islamabad">Islamabad</string>
+    <string name="jakarta">Jakarta</string>
+    <string name="jerusalem">Jerusalem</string>
+    <string name="kabul">Kabul</string>
+    <string name="kathmandu">Kathmandu</string>
+    <string name="kuala_lumpur">Kuala Lumpur</string>
+    <string name="al_kuwayt">Al Kuwayt</string>
+    <string name="lhasa">Lhasa</string>
+    <string name="male">Male</string>
+    <string name="manama">Manama</string>
+    <string name="manila">Manila</string>
+    <string name="muscat">Muscat</string>
+    <string name="naypyidaw">Naypyidaw</string>
+    <string name="new_delhi">New Delhi</string>
+    <string name="phnom_penh">Phnom Penh</string>
+    <string name="pyongyang">Pyongyang</string>
+    <string name="ar_riyad">Ar Riyad</string>
+    <string name="sanaa">Sanaa</string>
+    <string name="seoul">Seoul</string>
+    <string name="singapore_capital">Singapore</string>
+    <string name="taipei">Taipei</string>
+    <string name="tashkent">Tashkent</string>
+    <string name="tbilisi">Tbilisi</string>
+    <string name="tehran">Tehran</string>
+    <string name="thimphu">Thimphu</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="ulaanbaatar">Ulaanbaatar</string>
+    <string name="vientiane">Vientiane</string>
+    <string name="yerevan">Yerevan</string>
+
+    <string-array name="asia_capitals">
+        <item>@string/abu_dhabi</item>
+        <item>@string/amman</item>
+        <item>@string/ankara</item>
+        <item>@string/ashgabat</item>
+        <item>@string/astana</item>
+        <item>@string/baghdad</item>
+        <item>@string/baku</item>
+        <item>@string/bandar_seri_begawan</item>
+        <item>@string/bangkok</item>
+        <item>@string/beijing</item>
+        <item>@string/beirut</item>
+        <item>@string/bishkek</item>
+        <item>@string/kotte</item>
+        <item>@string/damascus</item>
+        <item>@string/dhaka</item>
+        <item>@string/dili</item>
+        <item>@string/doha</item>
+        <item>@string/dushanbe</item>
+        <item>@string/hanoi</item>
+        <item>@string/islamabad</item>
+        <item>@string/jakarta</item>
+        <item>@string/jerusalem</item>
+        <item>@string/kabul</item>
+        <item>@string/kathmandu</item>
+        <item>@string/kuala_lumpur</item>
+        <item>@string/al_kuwayt</item>
+        <item>@string/lhasa</item>
+        <item>@string/male</item>
+        <item>@string/manama</item>
+        <item>@string/manila</item>
+        <item>@string/muscat</item>
+        <item>@string/naypyidaw</item>
+        <item>@string/new_delhi</item>
+        <item>@string/phnom_penh</item>
+        <item>@string/pyongyang</item>
+        <item>@string/ar_riyad</item>
+        <item>@string/sanaa</item>
+        <item>@string/seoul</item>
+        <item>@string/singapore_capital</item>
+        <item>@string/taipei</item>
+        <item>@string/tashkent</item>
+        <item>@string/tbilisi</item>
+        <item>@string/tehran</item>
+        <item>@string/thimphu</item>
+        <item>@string/tokyo</item>
+        <item>@string/ulaanbaatar</item>
+        <item>@string/vientiane</item>
+        <item>@string/yerevan</item>
+    </string-array>
+
+
+    <string name="united_arab_emirates">United Arab Emirates</string>
+    <string name="jordan">Jordan</string>
+    <string name="turkey">Turkey</string>
+    <string name="turkmenistan">Turkmenistan</string>
+    <string name="kazakhstan">Kazakhstan</string>
+    <string name="iraq">Iraq</string>
+    <string name="azerbaijan">Azerbaijan</string>
+    <string name="brunei">Brunei</string>
+    <string name="thailand">Thailand</string>
+    <string name="china">China</string>
+    <string name="lebanon">Lebanon</string>
+    <string name="kyrgyzstan">Kyrgyzstan</string>
+    <string name="sri_lanka">Sri Lanka</string>
+    <string name="syria">Syria</string>
+    <string name="bangladesh">Bangladesh</string>
+    <string name="timor_east">East Timor</string>
+    <string name="qatar">Qatar</string>
+    <string name="tajikistan">Tajikistan</string>
+    <string name="vietnam">Vietnam</string>
+    <string name="pakistan">Pakistan</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="israel">Israel</string>
+    <string name="afghanistan">Afghanistan</string>
+    <string name="nepal">Nepal</string>
+    <string name="malaysia">Malaysia</string>
+    <string name="kuwait">Kuwait</string>
+    <string name="tibet">Tibet (PR China)</string>
+    <string name="maldives">Maldives</string>
+    <string name="bahrain">Bahrain</string>
+    <string name="philippines">Philippines</string>
+    <string name="oman">Oman</string>
+    <string name="myanmar">Myanmar</string>
+    <string name="india">India</string>
+    <string name="cambodia">Cambodia</string>
+    <string name="north_korea">North Korea</string>
+    <string name="saudi_arabia">Saudi Arabia</string>
+    <string name="yemen">Yemen</string>
+    <string name="south_korea">South Korea</string>
+    <string name="singapore_country">Singapore</string>
+    <string name="taiwan">Taiwan</string>
+    <string name="uzbekistan">Uzbekistan</string>
+    <string name="georgia">Georgia</string>
+    <string name="iran">Iran</string>
+    <string name="bhutan">Bhutan</string>
+    <string name="japan">Japan</string>
+    <string name="mongolia">Mongolia</string>
+    <string name="laos">Laos</string>
+    <string name="armenia">Armenia</string>
+
+    <string-array name="asia_countries">
+        <item>@string/united_arab_emirates</item>
+        <item>@string/jordan</item>
+        <item>@string/turkey</item>
+        <item>@string/turkmenistan</item>
+        <item>@string/kazakhstan</item>
+        <item>@string/iraq</item>
+        <item>@string/azerbaijan</item>
+        <item>@string/brunei</item>
+        <item>@string/thailand</item>
+        <item>@string/china</item>
+        <item>@string/lebanon</item>
+        <item>@string/kyrgyzstan</item>
+        <item>@string/sri_lanka</item>
+        <item>@string/syria</item>
+        <item>@string/bangladesh</item>
+        <item>@string/timor_east</item>
+        <item>@string/qatar</item>
+        <item>@string/tajikistan</item>
+        <item>@string/vietnam</item>
+        <item>@string/pakistan</item>
+        <item>@string/indonesia</item>
+        <item>@string/israel</item>
+        <item>@string/afghanistan</item>
+        <item>@string/nepal</item>
+        <item>@string/malaysia</item>
+        <item>@string/kuwait</item>
+        <item>@string/tibet</item>
+        <item>@string/maldives</item>
+        <item>@string/bahrain</item>
+        <item>@string/philippines</item>
+        <item>@string/oman</item>
+        <item>@string/myanmar</item>
+        <item>@string/india</item>
+        <item>@string/cambodia</item>
+        <item>@string/north_korea</item>
+        <item>@string/saudi_arabia</item>
+        <item>@string/yemen</item>
+        <item>@string/south_korea</item>
+        <item>@string/singapore_country</item>
+        <item>@string/taiwan</item>
+        <item>@string/uzbekistan</item>
+        <item>@string/georgia</item>
+        <item>@string/iran</item>
+        <item>@string/bhutan</item>
+        <item>@string/japan</item>
+        <item>@string/mongolia</item>
+        <item>@string/laos</item>
+        <item>@string/armenia</item>
+    </string-array>
+
+
+    <string name="basseterre">Basseterre</string>
+    <string name="belmopan">Belmopan</string>
+    <string name="bridgetown">Bridgetown</string>
+    <string name="castries">Castries</string>
+    <string name="guatemala_city">Guatemala City</string>
+    <string name="havana">Havana</string>
+    <string name="kingston">Kingston</string>
+    <string name="kingstown">Kingstown</string>
+    <string name="managua">Managua</string>
+    <string name="mexico_city">Mexico City</string>
+    <string name="nassau">Nassau</string>
+    <string name="ottawa">Ottawa</string>
+    <string name="panama_city">Panama City</string>
+    <string name="port_au_prince">Port-au-Prince</string>
+    <string name="port_of_spain">Port of Spain</string>
+    <string name="roseau">Roseau</string>
+    <string name="saint_georges">Saint George\'s</string>
+    <string name="saint_johns">Saint John\'s</string>
+    <string name="san_jose">San Jose</string>
+    <string name="san_salvador">San Salvador</string>
+    <string name="santo_domingo">Santo Domingo</string>
+    <string name="tegucigalpa">Tegucigalpa</string>
+    <string name="washington">Washington, D.C</string>
+
+    <string-array name="north_america_capitals">
+        <item>@string/basseterre</item>
+        <item>@string/belmopan</item>
+        <item>@string/bridgetown</item>
+        <item>@string/castries</item>
+        <item>@string/guatemala_city</item>
+        <item>@string/havana</item>
+        <item>@string/kingston</item>
+        <item>@string/kingstown</item>
+        <item>@string/managua</item>
+        <item>@string/mexico_city</item>
+        <item>@string/nassau</item>
+        <item>@string/ottawa</item>
+        <item>@string/panama_city</item>
+        <item>@string/port_au_prince</item>
+        <item>@string/port_of_spain</item>
+        <item>@string/roseau</item>
+        <item>@string/saint_georges</item>
+        <item>@string/saint_johns</item>
+        <item>@string/san_jose</item>
+        <item>@string/san_salvador</item>
+        <item>@string/santo_domingo</item>
+        <item>@string/tegucigalpa</item>
+        <item>@string/washington</item>
+    </string-array>
+
+
+    <string name="saint_kitts_nevis">Saint Kitts and Nevis</string>
+    <string name="belize">Belize</string>
+    <string name="barbados">Barbados</string>
+    <string name="saint_lucia">Saint Lucia</string>
+    <string name="guatemala">Guatemala</string>
+    <string name="cuba">Cuba</string>
+    <string name="jamaica">Jamaica</string>
+    <string name="saint_vincent_grenadines">Saint Vincent and the Grenadines</string>
+    <string name="nicaragua">Nicaragua</string>
+    <string name="mexico">Mexico</string>
+    <string name="bahamas">Bahamas</string>
+    <string name="canada">Canada</string>
+    <string name="panama">Panama</string>
+    <string name="haiti">Haiti</string>
+    <string name="trinidad_tobago">Trinidad and Tobago</string>
+    <string name="dominica">Dominica</string>
+    <string name="grenada">Grenada</string>
+    <string name="antigua_barbuda">Antigua and Barbuda</string>
+    <string name="costa_rica">Costa Rica</string>
+    <string name="el_salvador">El Salvador</string>
+    <string name="dominican_republic">Dominican Republic</string>
+    <string name="honduras">Honduras</string>
+    <string name="united_states_america">United States of America</string>
+
+    <string-array name="north_america_countries">
+        <item>@string/saint_kitts_nevis</item>
+        <item>@string/belize</item>
+        <item>@string/barbados</item>
+        <item>@string/saint_lucia</item>
+        <item>@string/guatemala</item>
+        <item>@string/cuba</item>
+        <item>@string/jamaica</item>
+        <item>@string/saint_vincent_grenadines</item>
+        <item>@string/nicaragua</item>
+        <item>@string/mexico</item>
+        <item>@string/bahamas</item>
+        <item>@string/canada</item>
+        <item>@string/panama</item>
+        <item>@string/haiti</item>
+        <item>@string/trinidad_tobago</item>
+        <item>@string/dominica</item>
+        <item>@string/grenada</item>
+        <item>@string/antigua_barbuda</item>
+        <item>@string/costa_rica</item>
+        <item>@string/el_salvador</item>
+        <item>@string/dominican_republic</item>
+        <item>@string/honduras</item>
+        <item>@string/united_states_america</item>
+    </string-array>
+
+
+    <string name="asuncion">Asuncion</string>
+    <string name="bogota">Bogota</string>
+    <string name="buenos_aires">Buenos Aires</string>
+    <string name="brasilia">Brasilia</string>
+    <string name="caracas">Caracas</string>
+    <string name="georgetown">Georgetown</string>
+    <string name="lima">Lima</string>
+    <string name="montevideo">Montevideo</string>
+    <string name="paramaribo">Paramaribo</string>
+    <string name="quito">Quito</string>
+    <string name="chile">Chile</string>
+    <string name="bolivia">Bolivia</string>
+
+    <string-array name="south_america_capitals">
+        <item>@string/asuncion</item>
+        <item>@string/bogota</item>
+        <item>@string/buenos_aires</item>
+        <item>@string/brasilia</item>
+        <item>@string/caracas</item>
+        <item>@string/georgetown</item>
+        <item>@string/lima</item>
+        <item>@string/montevideo</item>
+        <item>@string/paramaribo</item>
+        <item>@string/quito</item>
+        <item>@string/chile</item>
+        <item>@string/bolivia</item>
+    </string-array>
+
+
+    <string name="paraguay">Paraguay</string>
+    <string name="colombia">Colombia</string>
+    <string name="argentina">Argentina</string>
+    <string name="brazil">Brazil</string>
+    <string name="venezuela">Venezuela</string>
+    <string name="guyana">Guyana</string>
+    <string name="peru">Peru</string>
+    <string name="uruguay">Uruguay</string>
+    <string name="suriname">Suriname</string>
+    <string name="ecuador">Ecuador</string>
+    <string name="santiago">Santiago</string>
+    <string name="sucre">Sucre</string>
+
+    <string-array name="south_america_countries">
+        <item>@string/paraguay</item>
+        <item>@string/colombia</item>
+        <item>@string/argentina</item>
+        <item>@string/brazil</item>
+        <item>@string/venezuela</item>
+        <item>@string/guyana</item>
+        <item>@string/peru</item>
+        <item>@string/uruguay</item>
+        <item>@string/suriname</item>
+        <item>@string/ecuador</item>
+        <item>@string/santiago</item>
+        <item>@string/sucre</item>
+    </string-array>
+
+
+    <string name="apia">Apia</string>
+    <string name="canberra">Canberra</string>
+    <string name="funafuti">Funafuti</string>
+    <string name="honiara">Honiara</string>
+    <string name="majuro">Majuro</string>
+    <string name="melekeok">Melekeok</string>
+    <string name="noumea">Noumea</string>
+    <string name="nukualofa">Nukualofa</string>
+    <string name="pago_pago">Pago Pago</string>
+    <string name="palikir">Palikir</string>
+    <string name="papeete">Papeete</string>
+    <string name="port_moresby">Port Moresby</string>
+    <string name="port_vila">Port-Vila</string>
+    <string name="saipan">Saipan</string>
+    <string name="suva">Suva</string>
+    <string name="tarawa">Tarawa</string>
+    <string name="wellington">Wellington</string>
+
+    <string-array name="oceania_capitals">
+        <item>@string/apia</item>
+        <item>@string/canberra</item>
+        <item>@string/funafuti</item>
+        <item>@string/honiara</item>
+        <item>@string/majuro</item>
+        <item>@string/melekeok</item>
+        <item>@string/noumea</item>
+        <item>@string/nukualofa</item>
+        <item>@string/pago_pago</item>
+        <item>@string/palikir</item>
+        <item>@string/papeete</item>
+        <item>@string/port_moresby</item>
+        <item>@string/port_vila</item>
+        <item>@string/saipan</item>
+        <item>@string/suva</item>
+        <item>@string/tarawa</item>
+        <item>@string/wellington</item>
+    </string-array>
+
+
+    <string name="samoa">Samoa</string>
+    <string name="australia">Australia</string>
+    <string name="tuvalu">Tuvalu</string>
+    <string name="solomon_islands">Solomon Islands</string>
+    <string name="marshall_islands">Marshall Islands</string>
+    <string name="palau">Palau</string>
+    <string name="new_caledonia">New Caledonia</string>
+    <string name="tonga">Tonga</string>
+    <string name="american_samoa">American Samoa</string>
+    <string name="micronesia">Micronesia</string>
+    <string name="french_polynesia">French Polynesia (Tahiti)</string>
+    <string name="papua_new_guinea">Papua New Guinea</string>
+    <string name="vanuatu">Vanuatu</string>
+    <string name="northern_mariana_islands">Northern Mariana Islands</string>
+    <string name="fiji">Fiji</string>
+    <string name="kiribati">Kiribati</string>
+    <string name="new_zealand">New Zealand</string>
+
+    <string-array name="oceania_countries">
+        <item>@string/samoa</item>
+        <item>@string/australia</item>
+        <item>@string/tuvalu</item>
+        <item>@string/solomon_islands</item>
+        <item>@string/marshall_islands</item>
+        <item>@string/palau</item>
+        <item>@string/new_caledonia</item>
+        <item>@string/tonga</item>
+        <item>@string/american_samoa</item>
+        <item>@string/micronesia</item>
+        <item>@string/french_polynesia</item>
+        <item>@string/papua_new_guinea</item>
+        <item>@string/vanuatu</item>
+        <item>@string/northern_mariana_islands</item>
+        <item>@string/fiji</item>
+        <item>@string/kiribati</item>
+        <item>@string/new_zealand</item>
+    </string-array>
+
+
+    <string name="abuja">Abuja</string>
+    <string name="accra">Accra</string>
+    <string name="addis_ababa">Addis Ababa</string>
+    <string name="algiers">Algiers</string>
+    <string name="antananarivo">Antananarivo</string>
+    <string name="asmara">Asmara</string>
+    <string name="bamako">Bamako</string>
+    <string name="bangui">Bangui</string>
+    <string name="banjul">Banjul</string>
+    <string name="bissau">Bissau</string>
+    <string name="brazzaville">Brazzaville</string>
+    <string name="bujumbura">Bujumbura</string>
+    <string name="cairo">Cairo</string>
+    <string name="cape_town">Cape Town</string>
+    <string name="conakry">Conakry</string>
+    <string name="dakar">Dakar</string>
+    <string name="dar_salaam">Dar es Salaam</string>
+    <string name="djibouti">Djibouti</string>
+    <string name="freetown">Freetown</string>
+    <string name="gaborone">Gaborone</string>
+    <string name="harare">Harare</string>
+    <string name="juba">Juba</string>
+    <string name="kampala">Kampala</string>
+    <string name="khartoum">Khartoum</string>
+    <string name="kigali">Kigali</string>
+    <string name="kinshasa">Kinshasa</string>
+    <string name="el_aaiun">El Aaiún</string>
+    <string name="libreville">Libreville</string>
+    <string name="lilongwe">Lilongwe</string>
+    <string name="mbabane">Mbabane</string>
+    <string name="lome">Lomé</string>
+    <string name="luanda">Luanda</string>
+    <string name="lusaka">Lusaka</string>
+    <string name="malabo">Malabo</string>
+    <string name="maputo">Maputo</string>
+    <string name="maseru">Maseru</string>
+    <string name="mogadishu">Mogadishu</string>
+    <string name="monrovia">Monrovia</string>
+    <string name="moroni">Moroni</string>
+    <string name="nairobi">Nairobi</string>
+    <string name="ndjamena">N\'Djamena</string>
+    <string name="niamey">Niamey</string>
+    <string name="nouakchott">Nouakchott</string>
+    <string name="ouagadougou">Ouagadougou</string>
+    <string name="port_louis">Port Louis</string>
+    <string name="porto_novo">Porto-Novo</string>
+    <string name="praia">Praia</string>
+    <string name="rabat">Rabat</string>
+    <string name="tripoli">Tripoli</string>
+    <string name="tunis">Tunis</string>
+    <string name="victoria">Victoria</string>
+    <string name="windhoek">Windhoek</string>
+    <string name="yamoussoukro">Yamoussoukro</string>
+    <string name="yaounde">Yaoundé</string>
+
+    <string-array name="africa_capitals">
+        <item>@string/abuja</item>
+        <item>@string/accra</item>
+        <item>@string/addis_ababa</item>
+        <item>@string/algiers</item>
+        <item>@string/antananarivo</item>
+        <item>@string/asmara</item>
+        <item>@string/bamako</item>
+        <item>@string/bangui</item>
+        <item>@string/banjul</item>
+        <item>@string/bissau</item>
+        <item>@string/brazzaville</item>
+        <item>@string/bujumbura</item>
+        <item>@string/cairo</item>
+        <item>@string/cape_town</item>
+        <item>@string/conakry</item>
+        <item>@string/dakar</item>
+        <item>@string/dar_salaam</item>
+        <item>@string/djibouti</item>
+        <item>@string/freetown</item>
+        <item>@string/gaborone</item>
+        <item>@string/harare</item>
+        <item>@string/juba</item>
+        <item>@string/kampala</item>
+        <item>@string/khartoum</item>
+        <item>@string/kigali</item>
+        <item>@string/kinshasa</item>
+        <item>@string/el_aaiun</item>
+        <item>@string/libreville</item>
+        <item>@string/lilongwe</item>
+        <item>@string/mbabane</item>
+        <item>@string/lome</item>
+        <item>@string/luanda</item>
+        <item>@string/lusaka</item>
+        <item>@string/malabo</item>
+        <item>@string/maputo</item>
+        <item>@string/maseru</item>
+        <item>@string/mogadishu</item>
+        <item>@string/monrovia</item>
+        <item>@string/moroni</item>
+        <item>@string/nairobi</item>
+        <item>@string/ndjamena</item>
+        <item>@string/niamey</item>
+        <item>@string/nouakchott</item>
+        <item>@string/ouagadougou</item>
+        <item>@string/port_louis</item>
+        <item>@string/porto_novo</item>
+        <item>@string/praia</item>
+        <item>@string/rabat</item>
+        <item>@string/tripoli</item>
+        <item>@string/tunis</item>
+        <item>@string/victoria</item>
+        <item>@string/windhoek</item>
+        <item>@string/yamoussoukro</item>
+        <item>@string/yaounde</item>
+    </string-array>
+
+
+    <string name="nigeria">Nigeria</string>
+    <string name="ghana">Ghana</string>
+    <string name="ethiopia">Ethiopia</string>
+    <string name="algeria">Algeria</string>
+    <string name="madagascar">Madagascar</string>
+    <string name="eritrea">Eritrea</string>
+    <string name="mali">Mali</string>
+    <string name="central_africa">Central Africa</string>
+    <string name="gambia">Gambia</string>
+    <string name="guinea_bissau">Guinea-Bissau</string>
+    <string name="republic_congo">Republic of the Congo</string>
+    <string name="burundi">Burundi</string>
+    <string name="egypt">Egypt</string>
+    <string name="south_africa">South Africa</string>
+    <string name="guinea">Guinea</string>
+    <string name="senegal">Senegal</string>
+    <string name="tanzania">Tanzania</string>
+    <string name="djibouti_country">Djibouti</string>
+    <string name="sierra_leone">Sierra Leone</string>
+    <string name="botswana">Botswana</string>
+    <string name="zimbabwe">Zimbabwe</string>
+    <string name="south_sudan">South Sudan</string>
+    <string name="uganda">Uganda</string>
+    <string name="sudan">Sudan</string>
+    <string name="rwanda">Rwanda</string>
+    <string name="democratic_republic_congo">Democratic Republic of the Congo</string>
+    <string name="western_sahara">Western Sahara</string>
+    <string name="gabon">Gabon</string>
+    <string name="malawi">Malawi</string>
+    <string name="swaziland">Swaziland</string>
+    <string name="togo">Togo</string>
+    <string name="angola">Angola</string>
+    <string name="zambia">Zambia</string>
+    <string name="equatorial_guinea">Equatorial Guinea</string>
+    <string name="mozambique">Mozambique</string>
+    <string name="lesotho">Lesotho</string>
+    <string name="somalia">Somalia</string>
+    <string name="liberia">Liberia</string>
+    <string name="comoros">Comoros</string>
+    <string name="kenya">Kenya</string>
+    <string name="chad">Chad</string>
+    <string name="niger">Niger</string>
+    <string name="mauritania">Mauritania</string>
+    <string name="burkina_faso">Burkina Faso</string>
+    <string name="mauritius">Mauritius</string>
+    <string name="benin">Benin</string>
+    <string name="cape_verde">Cape Verde</string>
+    <string name="morocco">Morocco</string>
+    <string name="libya">Libya</string>
+    <string name="tunisia">Tunisia</string>
+    <string name="seychelles">Seychelles</string>
+    <string name="namibia">Namibia</string>
+    <string name="cote_d_ivoire">Republic of Cote d\'Ivoire</string>
+    <string name="cameroon">Cameroon</string>
+
+    <string-array name="africa_countries">
+        <item>@string/nigeria</item>
+        <item>@string/ghana</item>
+        <item>@string/ethiopia</item>
+        <item>@string/algeria</item>
+        <item>@string/madagascar</item>
+        <item>@string/eritrea</item>
+        <item>@string/mali</item>
+        <item>@string/central_africa</item>
+        <item>@string/gambia</item>
+        <item>@string/guinea_bissau</item>
+        <item>@string/republic_congo</item>
+        <item>@string/burundi</item>
+        <item>@string/egypt</item>
+        <item>@string/south_africa</item>
+        <item>@string/guinea</item>
+        <item>@string/senegal</item>
+        <item>@string/tanzania</item>
+        <item>@string/djibouti_country</item>
+        <item>@string/sierra_leone</item>
+        <item>@string/botswana</item>
+        <item>@string/zimbabwe</item>
+        <item>@string/south_sudan</item>
+        <item>@string/uganda</item>
+        <item>@string/sudan</item>
+        <item>@string/rwanda</item>
+        <item>@string/democratic_republic_congo</item>
+        <item>@string/western_sahara</item>
+        <item>@string/gabon</item>
+        <item>@string/malawi</item>
+        <item>@string/swaziland</item>
+        <item>@string/togo</item>
+        <item>@string/angola</item>
+        <item>@string/zambia</item>
+        <item>@string/equatorial_guinea</item>
+        <item>@string/mozambique</item>
+        <item>@string/lesotho</item>
+        <item>@string/somalia</item>
+        <item>@string/liberia</item>
+        <item>@string/comoros</item>
+        <item>@string/kenya</item>
+        <item>@string/chad</item>
+        <item>@string/niger</item>
+        <item>@string/mauritania</item>
+        <item>@string/burkina_faso</item>
+        <item>@string/mauritius</item>
+        <item>@string/benin</item>
+        <item>@string/cape_verde</item>
+        <item>@string/morocco</item>
+        <item>@string/libya</item>
+        <item>@string/tunisia</item>
+        <item>@string/seychelles</item>
+        <item>@string/namibia</item>
+        <item>@string/cote_d_ivoire</item>
+        <item>@string/cameroon</item>
+    </string-array>
+
+
+    <string name="question_begin">What is the capital of </string>
+
+    <string name="true_answers"> True: </string>
+    <string name="false_answers"> False: </string>
+
+    <string name="next">NEXT</string>
+
+</resources>
