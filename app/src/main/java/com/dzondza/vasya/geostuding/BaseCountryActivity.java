@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
  * Base quiz activity
  */
 
-public class BaseCountryActivity extends AppCompatActivity {
+public abstract class BaseCountryActivity extends AppCompatActivity {
 
     QuestionMechanism mQuestionMechanism;
     @Override

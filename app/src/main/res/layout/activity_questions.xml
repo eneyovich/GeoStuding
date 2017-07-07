@@ -46,7 +46,7 @@
         android:textSize="18sp"/>
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button_answer0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="15dp"
@@ -55,7 +55,7 @@
             android:background="@color/colorButtonStandart"/>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button_answer1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
@@ -63,7 +63,7 @@
             android:background="@color/colorButtonStandart"/>
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button_answer2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="15dp"
@@ -72,7 +72,7 @@
             android:background="@color/colorButtonStandart"/>
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/button_answer3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"

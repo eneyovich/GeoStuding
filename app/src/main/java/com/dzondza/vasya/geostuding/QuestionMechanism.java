@@ -17,10 +17,12 @@ import java.util.Set;
 public class QuestionMechanism {
     private int mCountriesIndex;
     private TextView mQuestionTextView;
+    private Button mButtonAnswer0;
     private Button mButtonAnswer1;
     private Button mButtonAnswer2;
     private Button mButtonAnswer3;
-    private Button mButtonAnswer4;
+
+    private Button[] mButtonAnswersArray;
 
     private TextView mTrueScoreTextView;
     private TextView mWrongScoreTextView;
@@ -36,10 +38,10 @@ public class QuestionMechanism {
 
     private String mQuestionCountry;
 
-    int countRightAnswers = 0;
-    int countWrongAnswers = 0;
+    private int countRightAnswers = 0;
+    private int countWrongAnswers = 0;
 
-    int firstAnswer = 0;
+    private int firstAnswer = 0;
 
     //random values for questions and answers
     private int random;
@@ -47,21 +49,25 @@ public class QuestionMechanism {
     private Set<Integer> randomSet = new HashSet<>();
 
 
-    public QuestionMechanism(Activity activity) {
+    QuestionMechanism(Activity activity) {
         mActivity = activity;
     }
 
 
-    protected void create(String[] capitalsArray, String[] countriesArray) {
+    //creates buttons, textViews, lists of capitals and countries, sets buttons' listeners
+    void create(String[] capitalsArray, String[] countriesArray) {
         mQuestionTextView = (TextView) mActivity.findViewById(R.id.question_textview);
 
         mTrueScoreTextView = (TextView) mActivity.findViewById(R.id.true_score_textview);
         mWrongScoreTextView = (TextView) mActivity.findViewById(R.id.wrong_score_textview);
 
-        mButtonAnswer1 = (Button) mActivity.findViewById(R.id.button1);
-        mButtonAnswer2 = (Button) mActivity.findViewById(R.id.button2);
-        mButtonAnswer3 = (Button) mActivity.findViewById(R.id.button3);
-        mButtonAnswer4 = (Button) mActivity.findViewById(R.id.button4);
+        mButtonAnswer0 = (Button) mActivity.findViewById(R.id.button_answer0);
+        mButtonAnswer1 = (Button) mActivity.findViewById(R.id.button_answer1);
+        mButtonAnswer2 = (Button) mActivity.findViewById(R.id.button_answer2);
+        mButtonAnswer3 = (Button) mActivity.findViewById(R.id.button_answer3);
+
+        mButtonAnswersArray = new Button[]{mButtonAnswer0, mButtonAnswer1,
+                mButtonAnswer2, mButtonAnswer3};
 
         mNextButton = (Button) mActivity.findViewById(R.id.next_button);
 
@@ -71,10 +77,10 @@ public class QuestionMechanism {
         mCountriesIndex = -1;
         openNextQuestion();
 
-        buttonListener(mButtonAnswer1);
-        buttonListener(mButtonAnswer2);
-        buttonListener(mButtonAnswer3);
-        buttonListener(mButtonAnswer4);
+        //sets listeners for all buttons with answers
+        for (Button answerButton: mButtonAnswersArray) {
+            buttonListener(answerButton);
+        }
 
         mNextButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,7 +90,7 @@ public class QuestionMechanism {
         });
     }
 
-    public void openNextQuestion() {
+    private void openNextQuestion() {
         mCountriesIndex++;
         if (mCountriesIndex == mCapitalsList.size()) {
             mCountriesIndex = 0;
@@ -94,8 +100,8 @@ public class QuestionMechanism {
         random question title
          */
         mQuestionCountry = mCountriesList.get(mCountriesIndex);
-        mQuestionTextView.setText(mActivity.getString
-                (R.string.question_begin) + "\n" + mQuestionCountry + " ?");
+        mQuestionTextView.setText(new StringBuilder(mActivity.getString(R.string.question_begin))
+                .append("\n").append(mQuestionCountry).append(" ?").toString());
 
         /*
         1 correct answer and 3 random values for 4 buttons
@@ -110,22 +116,19 @@ public class QuestionMechanism {
         }
 
         //buttons' title
-        mButtonAnswer1.setText(randomArray.get(0));
-        mButtonAnswer2.setText(randomArray.get(1));
-        mButtonAnswer3.setText(randomArray.get(2));
-        mButtonAnswer4.setText(randomArray.get(3));
+        for (int i = 0; i < mButtonAnswersArray.length; i++) {
+            mButtonAnswersArray[i].setText(randomArray.get(i));
+        }
 
         //buttons' colors
-        mButtonAnswer1.setBackgroundResource(R.color.colorButtonStandart);
-        mButtonAnswer2.setBackgroundResource(R.color.colorButtonStandart);
-        mButtonAnswer3.setBackgroundResource(R.color.colorButtonStandart);
-        mButtonAnswer4.setBackgroundResource(R.color.colorButtonStandart);
+        for (Button answerButton: mButtonAnswersArray){
+            answerButton.setBackgroundResource(R.color.colorButtonStandart);
+        }
 
         //enable buttons
-        mButtonAnswer1.setEnabled(true);
-        mButtonAnswer2.setEnabled(true);
-        mButtonAnswer3.setEnabled(true);
-        mButtonAnswer4.setEnabled(true);
+        for (Button answerButton: mButtonAnswersArray){
+            answerButton.setEnabled(true);
+        }
 
 
         randomSet.clear();
@@ -135,11 +138,10 @@ public class QuestionMechanism {
     }
 
     /*
-    firstAnswer = 0 - no answer yet
-    firstAnswer = 1 - first answer is correct
-    firstAnswer = 2 - first answer is wrong
+    Creates listener for button with answer
+    firstAnswer = 0 - no answer yet; 1 - first answer is correct; 2 - first answer is wrong
      */
-    public void buttonListener(final Button button) {
+    private void buttonListener(final Button button) {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -148,7 +150,6 @@ public class QuestionMechanism {
                 if (buttonIndex == mCountriesIndex) {
                     button.setTag(firstAnswer +=1);
                     button.setBackgroundResource(R.color.colorTrueButtonGreen);
-
                 } else {
                     button.setBackgroundResource(R.color.colorFalseButtonRed);
                     button.setTag(firstAnswer +=2);
@@ -156,14 +157,16 @@ public class QuestionMechanism {
                 button.setEnabled(false);
 
                 if (button.getTag().equals(1)) {
+
                     countRightAnswers += 1;
-                    mTrueScoreTextView.setText(mActivity.getResources()
-                            .getString(R.string.true_answers) + countRightAnswers);
+                    mTrueScoreTextView.setText(new StringBuilder(mActivity.getResources()
+                            .getString(R.string.true_answers)).append(countRightAnswers).toString());
                 }
                 else if (button.getTag().equals(2)) {
+
                     countWrongAnswers += 1;
-                    mWrongScoreTextView.setText(mActivity.getResources()
-                            .getString(R.string.false_answers) + countWrongAnswers);
+                    mWrongScoreTextView.setText(new StringBuilder(mActivity.getResources()
+                            .getString(R.string.false_answers)).append(countWrongAnswers).toString());
                 }
             }
         });

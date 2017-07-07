@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GeoStuding</string>
+    <string name="app_name">Capital Studying</string>
     
     <string name="capitals_europe">European Capitals</string>
     <string name="capitals_asia">Asian Capitals</string>
@@ -106,7 +106,7 @@
 
     <string name="netherlands">Netherlands</string>
     <string name="andorra_country">Andorra</string>
-    <string name="greece">Ghana</string>
+    <string name="greece">Greece</string>
     <string name="serbia">Serbia</string>
     <string name="germany">Germany</string>
     <string name="switzerland">Switzerland</string>
