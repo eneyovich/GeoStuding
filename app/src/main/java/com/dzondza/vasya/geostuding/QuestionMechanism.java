@@ -21,7 +21,6 @@ public class QuestionMechanism {
     private Button mButtonAnswer1;
     private Button mButtonAnswer2;
     private Button mButtonAnswer3;
-
     private Button[] mButtonAnswersArray;
 
     private TextView mTrueScoreTextView;
