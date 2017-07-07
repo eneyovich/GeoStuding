@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Capital Studying</string>
+    <string name="app_name">Memorizing Capitals</string>
     
     <string name="capitals_europe">European Capitals</string>
     <string name="capitals_asia">Asian Capitals</string>
@@ -9,6 +9,7 @@
     <string name="capitals_africa">African Capitals</string>
 
 
+    <!-- European capitals -->
     <string name="amsterdam">Amsterdam</string>
     <string name="andorra_capital">Andorra la Vella</string>
     <string name="athens">Athens</string>
@@ -104,6 +105,7 @@
     </string-array>
 
 
+    <!-- European countries -->
     <string name="netherlands">Netherlands</string>
     <string name="andorra_country">Andorra</string>
     <string name="greece">Greece</string>
@@ -199,6 +201,7 @@
     </string-array>
 
 
+    <!-- Asian capitals -->
     <string name="abu_dhabi">Abu Dhabi</string>
     <string name="amman">Amman</string>
     <string name="ankara">Ankara</string>
@@ -300,6 +303,7 @@
     </string-array>
 
 
+    <!-- Asian countries -->
     <string name="united_arab_emirates">United Arab Emirates</string>
     <string name="jordan">Jordan</string>
     <string name="turkey">Turkey</string>
@@ -401,6 +405,7 @@
     </string-array>
 
 
+    <!-- North American capitals -->
     <string name="basseterre">Basseterre</string>
     <string name="belmopan">Belmopan</string>
     <string name="bridgetown">Bridgetown</string>
@@ -452,6 +457,7 @@
     </string-array>
 
 
+    <!-- North American countries -->
     <string name="saint_kitts_nevis">Saint Kitts and Nevis</string>
     <string name="belize">Belize</string>
     <string name="barbados">Barbados</string>
@@ -503,6 +509,7 @@
     </string-array>
 
 
+    <!-- South American capitals -->
     <string name="asuncion">Asuncion</string>
     <string name="bogota">Bogota</string>
     <string name="buenos_aires">Buenos Aires</string>
@@ -532,6 +539,7 @@
     </string-array>
 
 
+    <!-- South American countries -->
     <string name="paraguay">Paraguay</string>
     <string name="colombia">Colombia</string>
     <string name="argentina">Argentina</string>
@@ -561,6 +569,7 @@
     </string-array>
 
 
+    <!-- Australian capitals -->
     <string name="apia">Apia</string>
     <string name="canberra">Canberra</string>
     <string name="funafuti">Funafuti</string>
@@ -600,6 +609,7 @@
     </string-array>
 
 
+    <!-- Australian countries -->
     <string name="samoa">Samoa</string>
     <string name="australia">Australia</string>
     <string name="tuvalu">Tuvalu</string>
@@ -639,6 +649,7 @@
     </string-array>
 
 
+    <!-- African capitals -->
     <string name="abuja">Abuja</string>
     <string name="accra">Accra</string>
     <string name="addis_ababa">Addis Ababa</string>
@@ -752,6 +763,7 @@
     </string-array>
 
 
+    <!-- African countries -->
     <string name="nigeria">Nigeria</string>
     <string name="ghana">Ghana</string>
     <string name="ethiopia">Ethiopia</string>
