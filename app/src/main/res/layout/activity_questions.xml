@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/base_country_activity_background"
-    tools:context="com.dzondza.vasya.geostuding.EuropeanActivity">
+    tools:context="com.dzondza.vasya.geostudying.EuropeanActivity">
 
     <TextView
         android:id="@+id/question_textview"
