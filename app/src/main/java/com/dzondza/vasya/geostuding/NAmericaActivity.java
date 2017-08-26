@@ -2,9 +2,10 @@ package com.dzondza.vasya.geostuding;
 
 import android.os.Bundle;
 
-/*
-North America Quiz
+/**
+ * North America's Quiz
  */
+
 public class NAmericaActivity extends BaseCountryActivity {
 
     @Override

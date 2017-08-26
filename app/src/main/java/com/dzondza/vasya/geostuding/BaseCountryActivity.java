@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * Base quiz activity
+ * Base quiz's activity
  */
 
 public abstract class BaseCountryActivity extends AppCompatActivity {

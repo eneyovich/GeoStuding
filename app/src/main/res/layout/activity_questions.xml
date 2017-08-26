@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/base_country_activity_background"
+    android:background="@drawable/drawable_questions_background"
     tools:context="com.dzondza.vasya.geostuding.EuropeanActivity">
 
     <TextView

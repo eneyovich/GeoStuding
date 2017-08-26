@@ -2,9 +2,10 @@ package com.dzondza.vasya.geostuding;
 
 import android.os.Bundle;
 
-/*
-South America Quiz
+/**
+ * South America's Quiz
  */
+
 public class SAmericaActivity extends BaseCountryActivity {
 
     @Override

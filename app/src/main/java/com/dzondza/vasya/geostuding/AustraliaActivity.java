@@ -2,9 +2,10 @@ package com.dzondza.vasya.geostuding;
 
 import android.os.Bundle;
 
-/*
-Australia Quiz
+/**
+ * Australia's Quiz
  */
+
 public class AustraliaActivity extends BaseCountryActivity {
 
     @Override
