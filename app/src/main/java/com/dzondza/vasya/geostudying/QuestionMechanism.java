@@ -1,4 +1,4 @@
-package com.dzondza.vasya.geostuding;
+package com.dzondza.vasya.geostudying;
 
 import android.app.Activity;
 import android.view.View;

@@ -1,4 +1,4 @@
-package com.dzondza.vasya.geostuding;
+package com.dzondza.vasya.geostudying;
 
 import org.junit.Test;
 
