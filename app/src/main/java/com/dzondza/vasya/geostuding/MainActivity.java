@@ -17,12 +17,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button euroButton = (Button) findViewById(R.id.europe_button);
-        Button asiaButton = (Button) findViewById(R.id.asia_button);
-        Button namericaButton = (Button) findViewById(R.id.namerica_button);
-        Button samericaButton = (Button) findViewById(R.id.samerica_button);
-        Button australiaButton = (Button) findViewById(R.id.australia_button);
-        Button africaButton = (Button) findViewById(R.id.africa_button);
+        Button euroButton = (Button) findViewById(R.id.button_europe);
+        Button asiaButton = (Button) findViewById(R.id.button_asia);
+        Button namericaButton = (Button) findViewById(R.id.button_namerica);
+        Button samericaButton = (Button) findViewById(R.id.button_samerica);
+        Button australiaButton = (Button) findViewById(R.id.button_australia);
+        Button africaButton = (Button) findViewById(R.id.button_africa);
 
 
         createIntent(euroButton, EuropeanActivity.class);

@@ -13,7 +13,7 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/europe_button"
+        android:id="@+id/button_europe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -22,7 +22,7 @@
         android:background="?android:attr/dividerVertical"/>
 
     <Button
-        android:id="@+id/asia_button"
+        android:id="@+id/button_asia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -31,7 +31,7 @@
         android:background="?android:attr/dividerVertical"/>
 
     <Button
-        android:id="@+id/namerica_button"
+        android:id="@+id/button_namerica"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -40,7 +40,7 @@
         android:background="?android:attr/dividerVertical"/>
 
     <Button
-        android:id="@+id/samerica_button"
+        android:id="@+id/button_samerica"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -49,7 +49,7 @@
         android:background="?android:attr/dividerVertical"/>
 
     <Button
-        android:id="@+id/australia_button"
+        android:id="@+id/button_australia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -58,7 +58,7 @@
         android:background="?android:attr/dividerVertical"/>
 
     <Button
-        android:id="@+id/africa_button"
+        android:id="@+id/button_africa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"

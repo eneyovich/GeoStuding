@@ -55,10 +55,10 @@ public class QuestionMechanism {
 
     //creates buttons, textViews, lists of capitals and countries, sets buttons' listeners
     void create(String[] capitalsArray, String[] countriesArray) {
-        mQuestionTextView = (TextView) mActivity.findViewById(R.id.question_textview);
+        mQuestionTextView = (TextView) mActivity.findViewById(R.id.text_question);
 
-        mTrueScoreTextView = (TextView) mActivity.findViewById(R.id.true_score_textview);
-        mWrongScoreTextView = (TextView) mActivity.findViewById(R.id.wrong_score_textview);
+        mTrueScoreTextView = (TextView) mActivity.findViewById(R.id.text_true_score);
+        mWrongScoreTextView = (TextView) mActivity.findViewById(R.id.text_wrong_score);
 
         mButtonAnswer0 = (Button) mActivity.findViewById(R.id.button_answer0);
         mButtonAnswer1 = (Button) mActivity.findViewById(R.id.button_answer1);
@@ -68,7 +68,7 @@ public class QuestionMechanism {
         mButtonAnswersArray = new Button[]{mButtonAnswer0, mButtonAnswer1,
                 mButtonAnswer2, mButtonAnswer3};
 
-        mNextButton = (Button) mActivity.findViewById(R.id.next_button);
+        mNextButton = (Button) mActivity.findViewById(R.id.button_next);
 
         mCapitalsList = Arrays.asList(capitalsArray);
         mCountriesList = Arrays.asList(countriesArray);

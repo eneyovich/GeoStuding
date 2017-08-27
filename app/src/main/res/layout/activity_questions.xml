@@ -7,11 +7,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/drawable_questions_background"
+    android:background="@drawable/drawable_background_questions"
     tools:context="com.dzondza.vasya.geostuding.EuropeanActivity">
 
     <TextView
-        android:id="@+id/question_textview"
+        android:id="@+id/text_question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#1A237E"
@@ -26,7 +26,7 @@
         android:gravity="center"/>
 
     <TextView
-        android:id="@+id/true_score_textview"
+        android:id="@+id/text_true_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
@@ -36,7 +36,7 @@
         android:textSize="18sp"/>
 
     <TextView
-        android:id="@+id/wrong_score_textview"
+        android:id="@+id/text_wrong_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
@@ -80,7 +80,7 @@
             android:background="@color/colorButtonStandart"/>
 
     <Button
-        android:id="@+id/next_button"
+        android:id="@+id/button_next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
