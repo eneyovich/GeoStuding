@@ -4,8 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="colorButtonStandart">#90CAF9</color>
-    <color name="colorTrueButtonGreen">#76FF03</color>
-    <color name="colorFalseButtonRed">#F44336</color>
+    <color name="colorButtonUnpressed">#90CAF9</color>
+    <color name="colorButtonTrueGreen">#76FF03</color>
+    <color name="colorButtonFalseRed">#F44336</color>
 
 </resources>
