@@ -12,8 +12,8 @@
         android:id="@+id/text_question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="35dp"
+        android:layout_marginTop="@dimen/activity_questions_text_margin_top"
+        android:layout_marginBottom="@dimen/activity_questions_text_margin_bottom"
         android:gravity="center"
         android:shadowColor="#2196F3"
         android:shadowDx="2"
@@ -21,69 +21,39 @@
         android:shadowRadius="5"
         android:textColor="#1A237E"
         android:textStyle="bold|italic"
-        android:textSize="24sp"/>
+        android:textSize="@dimen/activity_questions_text_size"/>
 
     <TextView
         android:id="@+id/text_true_score"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_gravity="start"
-        android:textColor="#1A237E"
-        android:textSize="18sp"/>
+        style="@style/MyTrueWrongScoresStyle"/>
 
     <TextView
         android:id="@+id/text_wrong_score"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_gravity="start"
-        android:textColor="#1A237E"
-        android:textSize="18sp"/>
+        style="@style/MyTrueWrongScoresStyle"/>
 
         <Button
             android:id="@+id/button_answer0"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:textColor="@android:color/white"
-            android:background="@color/colorButtonUnpressed"/>
+            style="@style/MyButtonAnswerStyle"/>
 
         <Button
             android:id="@+id/button_answer1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:textColor="@android:color/white"
-            android:background="@color/colorButtonUnpressed"/>
+            style="@style/MyButtonAnswerStyle"/>
 
         <Button
             android:id="@+id/button_answer2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:textColor="@android:color/white"
-            android:background="@color/colorButtonUnpressed"/>
+            style="@style/MyButtonAnswerStyle"/>
 
         <Button
             android:id="@+id/button_answer3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:textColor="@android:color/white"
-            android:background="@color/colorButtonUnpressed"/>
+            style="@style/MyButtonAnswerStyle"/>
 
     <Button
         android:id="@+id/button_next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="@dimen/activity_questions_buttons_margins"
         android:textColor="@android:color/white"
         android:text="@string/next"
         android:background="?android:attr/dividerVertical"/>

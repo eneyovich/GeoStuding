@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 
 public abstract class BaseCountryActivity extends AppCompatActivity {
 
-    QuestionMechanism mQuestionMechanism;
+    protected QuestionMechanism mQuestionMechanism;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

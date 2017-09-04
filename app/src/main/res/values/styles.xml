@@ -8,4 +8,31 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MyMainActivityButtonsStyle">
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyTrueWrongScoresStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/text_true_wrong_score_margins</item>
+        <item name="android:layout_marginBottom">@dimen/text_true_wrong_score_margins</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textColor">#1A237E</item>
+        <item name="android:textSize">@dimen/text_true_wrong_score_size</item>
+    </style>
+    
+    <style name="MyButtonAnswerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginRight">@dimen/activity_questions_buttons_margins</item>
+        <item name="android:layout_marginLeft">@dimen/activity_questions_buttons_margins</item>
+        <item name="android:background">@color/colorButtonUnpressed</item>
+
+    </style>
+
 </resources>

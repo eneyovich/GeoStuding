@@ -8,59 +8,36 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:theme="@style/MyMainActivityButtonsStyle">
 
     <Button
         android:id="@+id/button_europe"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:textColor="@android:color/white"
         android:text="@string/capitals_europe"
         android:background="?android:attr/dividerVertical"/>
 
     <Button
         android:id="@+id/button_asia"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:textColor="@android:color/white"
         android:text="@string/capitals_asia"
-        android:background="?android:attr/dividerVertical"/>
+        android:background="?attr/dividerVertical"/>
 
     <Button
         android:id="@+id/button_namerica"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:textColor="@android:color/white"
         android:text="@string/capitals_namerica"
         android:background="?android:attr/dividerVertical"/>
 
     <Button
         android:id="@+id/button_samerica"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:textColor="@android:color/white"
         android:text="@string/capitals_samerica"
         android:background="?android:attr/dividerVertical"/>
 
     <Button
         android:id="@+id/button_australia"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:textColor="@android:color/white"
         android:text="@string/capitals_australia"
         android:background="?android:attr/dividerVertical"/>
 
     <Button
         android:id="@+id/button_africa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:textColor="@android:color/white"
         android:text="@string/capitals_africa"
         android:background="?android:attr/dividerVertical"/>
 

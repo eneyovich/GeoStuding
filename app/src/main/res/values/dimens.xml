@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_true_wrong_score_margins">10dp</dimen>
+    <dimen name="text_true_wrong_score_size">18sp</dimen>
+    <dimen name="activity_questions_buttons_margins">15dp</dimen>
+    <dimen name="activity_questions_text_margin_top">10dp</dimen>
+    <dimen name="activity_questions_text_margin_bottom">35dp</dimen>
+    <dimen name="activity_questions_text_size">24sp</dimen>
+</resources>
