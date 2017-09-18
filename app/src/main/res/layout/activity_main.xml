@@ -19,7 +19,7 @@
     <Button
         android:id="@+id/button_asia"
         android:text="@string/capitals_asia"
-        android:background="?attr/dividerVertical"/>
+        android:background="?android:attr/dividerVertical"/>
 
     <Button
         android:id="@+id/button_namerica"

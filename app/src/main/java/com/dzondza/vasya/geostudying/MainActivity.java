@@ -6,31 +6,35 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * main screen in application
  */
 
 public class MainActivity extends AppCompatActivity {
+    List<Button> mButtons = new ArrayList<>();
+    List<Class> mClasses = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button euroButton = (Button) findViewById(R.id.button_europe);
-        Button asiaButton = (Button) findViewById(R.id.button_asia);
-        Button namericaButton = (Button) findViewById(R.id.button_namerica);
-        Button samericaButton = (Button) findViewById(R.id.button_samerica);
-        Button australiaButton = (Button) findViewById(R.id.button_australia);
-        Button africaButton = (Button) findViewById(R.id.button_africa);
+        mButtons.addAll(Arrays.asList((Button) findViewById(R.id.button_europe),
+                (Button) findViewById(R.id.button_asia), (Button) findViewById(R.id.button_namerica),
+                (Button) findViewById(R.id.button_samerica), (Button) findViewById(R.id.button_australia),
+                (Button) findViewById(R.id.button_africa)));
+
+        mClasses.addAll(Arrays.asList(EuropeanActivity.class, AsiaActivity.class, NAmericaActivity.class,
+                SAmericaActivity.class, AustraliaActivity.class, AfricaActivity.class));
 
 
-        createIntent(euroButton, EuropeanActivity.class);
-        createIntent(asiaButton, AsiaActivity.class);
-        createIntent(namericaButton, NAmericaActivity.class);
-        createIntent(samericaButton, SAmericaActivity.class);
-        createIntent(australiaButton, AustraliaActivity.class);
-        createIntent(africaButton, AfricaActivity.class);
+        for (int i = 0; i < mButtons.size(); i++) {
+            createIntent(mButtons.get(i), mClasses.get(i));
+        }
     }
 
 
