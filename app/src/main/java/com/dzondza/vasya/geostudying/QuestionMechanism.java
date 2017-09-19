@@ -67,12 +67,7 @@ class QuestionMechanism {
             buttonListener(answerButton);
         }
 
-        mNextButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openNextQuestion();
-            }
-        });
+        mNextButton.setOnClickListener(view -> openNextQuestion());
     }
 
 
@@ -131,32 +126,29 @@ class QuestionMechanism {
        mFirstAnswer = 0 - no answer yet; 1 - first answer is correct; 2 - first answer is wrong
     */
     private void buttonListener(final Button button) {
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int buttonIndex = mCapitalsList.indexOf(button.getText().toString());
+        button.setOnClickListener(v -> {
+            int buttonIndex = mCapitalsList.indexOf(button.getText().toString());
 
-                if (buttonIndex == mCountriesIndex) {
-                    button.setTag(mFirstAnswer +=1);
-                    button.setBackgroundResource(R.color.colorButtonTrueGreen);
-                } else {
-                    button.setBackgroundResource(R.color.colorButtonFalseRed);
-                    button.setTag(mFirstAnswer +=2);
-                }
-                button.setEnabled(false);
+            if (buttonIndex == mCountriesIndex) {
+                button.setTag(mFirstAnswer +=1);
+                button.setBackgroundResource(R.color.colorButtonTrueGreen);
+            } else {
+                button.setBackgroundResource(R.color.colorButtonFalseRed);
+                button.setTag(mFirstAnswer +=2);
+            }
+            button.setEnabled(false);
 
-                if (button.getTag().equals(1)) {
+            if (button.getTag().equals(1)) {
 
-                    mRightAnswers += 1;
-                    mTrueScoreTextView.setText(new StringBuilder(mActivity.getResources()
-                            .getString(R.string.true_answers)).append(mRightAnswers).toString());
-                }
-                else if (button.getTag().equals(2)) {
+                mRightAnswers += 1;
+                mTrueScoreTextView.setText(new StringBuilder(mActivity.getResources()
+                        .getString(R.string.true_answers)).append(mRightAnswers).toString());
+            }
+            else if (button.getTag().equals(2)) {
 
-                    mWrongAnswers += 1;
-                    mWrongScoreTextView.setText(new StringBuilder(mActivity.getResources()
-                            .getString(R.string.false_answers)).append(mWrongAnswers).toString());
-                }
+                mWrongAnswers += 1;
+                mWrongScoreTextView.setText(new StringBuilder(mActivity.getResources()
+                        .getString(R.string.false_answers)).append(mWrongAnswers).toString());
             }
         });
     }
