@@ -1,7 +1,6 @@
 package com.dzondza.vasya.geostudying;
 
 import android.app.Activity;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import java.util.ArrayList;
@@ -99,19 +98,11 @@ class QuestionMechanism {
             randomArray.add(mCapitalsList.get(a));
         }
 
-        //buttons' title
+        //buttons' titles and colors, enable buttons
         for (int i = 0; i < mButtonAnswersArray.length; i++) {
             mButtonAnswersArray[i].setText(randomArray.get(i));
-        }
-
-        //buttons' colors
-        for (Button answerButton: mButtonAnswersArray){
-            answerButton.setBackgroundResource(R.color.colorButtonUnpressed);
-        }
-
-        //enable buttons
-        for (Button answerButton: mButtonAnswersArray){
-            answerButton.setEnabled(true);
+            mButtonAnswersArray[i].setBackgroundResource(R.color.colorButtonUnpressed);
+            mButtonAnswersArray[i].setEnabled(true);
         }
 
 

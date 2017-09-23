@@ -22,18 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mButtons.addAll(Arrays.asList((Button) findViewById(R.id.button_europe),
-                (Button) findViewById(R.id.button_asia), (Button) findViewById(R.id.button_namerica),
-                (Button) findViewById(R.id.button_samerica), (Button) findViewById(R.id.button_australia),
-                (Button) findViewById(R.id.button_africa)));
-
-        mClasses.addAll(Arrays.asList(EuropeanActivity.class, AsiaActivity.class, NAmericaActivity.class,
-                SAmericaActivity.class, AustraliaActivity.class, AfricaActivity.class));
-
-
-        for (int i = 0; i < mButtons.size(); i++) {
-            createIntent(mButtons.get(i), mClasses.get(i));
-        }
+        continentalsButtons();
     }
 
 
@@ -42,5 +31,20 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, clazz);
             startActivity(intent);
         });
+    }
+
+
+    private void continentalsButtons() {
+        mButtons.addAll(Arrays.asList((Button) findViewById(R.id.button_europe),
+                (Button) findViewById(R.id.button_asia), (Button) findViewById(R.id.button_namerica),
+                (Button) findViewById(R.id.button_samerica), (Button) findViewById(R.id.button_australia),
+                (Button) findViewById(R.id.button_africa)));
+
+        mClasses.addAll(Arrays.asList(EuropeanActivity.class, AsiaActivity.class, NAmericaActivity.class,
+                SAmericaActivity.class, AustraliaActivity.class, AfricaActivity.class));
+
+        for (int i = 0; i < mButtons.size(); i++) {
+            createIntent(mButtons.get(i), mClasses.get(i));
+        }
     }
 }
